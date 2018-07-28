@@ -1,0 +1,10 @@
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.0.1}蒙特卡罗预测}{\reset@font\mtcSSfont 57}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}行为值的蒙特卡罗估计}{\reset@font\mtcSfont 59}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}蒙特卡罗控制}{\reset@font\mtcSfont 60}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.1}无探测启动的蒙特卡罗控制}{\reset@font\mtcSSfont 61}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.2}通过重要性抽样进行政策外预测}{\reset@font\mtcSSfont 62}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}增量实现}{\reset@font\mtcSfont 65}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}场外蒙特卡罗控制}{\reset@font\mtcSfont 65}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.5}Discounting-aware重要性抽样}{\reset@font\mtcSfont 66}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.6}每个决策重要性抽样}{\reset@font\mtcSfont 67}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.7}总结}{\reset@font\mtcSfont 68}}

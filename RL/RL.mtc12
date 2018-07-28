@@ -1,0 +1,14 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.1}的λ-return}{\reset@font\mtcSfont 149}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.2}TD(λ)}{\reset@font\mtcSfont 151}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.3}n-step截断λ-return方法}{\reset@font\mtcSfont 152}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.4}重新更新:在线λ-return算法}{\reset@font\mtcSfont 153}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.5}真实在线TD(λ)}{\reset@font\mtcSfont 154}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.6}荷兰语在蒙特卡洛学习}{\reset@font\mtcSfont 155}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.7}撒尔沙(λ)}{\reset@font\mtcSfont 157}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.8}变量λ和γ}{\reset@font\mtcSfont 158}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.9}带有控制变量的非政策跟踪}{\reset@font\mtcSfont 159}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.10}沃特金斯的Q(λ)Tree-Backup(λ)}{\reset@font\mtcSfont 161}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.11}带有跟踪的稳定脱机方法}{\reset@font\mtcSfont 161}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.12}实现问题}{\reset@font\mtcSfont 163}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.13}结论}{\reset@font\mtcSfont 163}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {12.14}书目的和历史的言论}{\reset@font\mtcSfont 164}}

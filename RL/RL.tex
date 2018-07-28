@@ -1,0 +1,298 @@
+\documentclass[UTF8]{RL}
+\usepackage{xeCJK}
+% 设置文档正文字体为宋体
+\setCJKmainfont[BoldFont=SimHei]{SimSun}
+\setCJKmonofont{SimSun}     % 设置缺省中文字体
+\begin{document}
+
+\tsbook{增强学习导论}
+       {作者：Rich Sutton 译者：Jackokie Zhao}
+       {赵纪伟}
+       {2017}
+       {xxxxx}{xxx--xx--xxxx--xx--x}{0.0}
+       {中国教育出版社}
+       {南京}
+
+%---------------------------------------------------------------------------
+% Chapters
+%---------------------------------------------------------------------------
+
+%---------------------------------------------------------------------------
+
+\include{chapters/chapter_1}
+
+\part{第一部分:表列解方法}
+在本书的这一部分，我们用最简单的形式描述了强化学习算法的几乎所有核心思想:状态和操作空间足够小，使得近似值函数可以表示为数组或表。在这种情况下，方法往往能找到精确的解，也就是说，它们往往能找到最优值函数和最优策略。这与本书下一部分所描述的近似方法不同，后者只找到近似解，但反过来可以有效地应用于更大的问题。
+本书的这一部分的第一章描述了关于强化学习问题的特殊情况的解决方法，在这种情况下只有一种状态，称为班迪特问题。第二章描述了我们在有限马尔可夫决策过程中处理的一般问题公式，以及它的主要思想，包括Bellman方程和value函数。
+接下来的三章描述了解决有限马尔可夫决策问题的三种基本方法:动态规划、蒙特卡罗方法和时间差学习。每种方法都有其优点和缺点。动态规划方法在数学上得到了很好的发展，但是需要一个完整而准确的环境模型。蒙特卡罗方法不需要模型，概念上很简单，但是不适合逐步递增的计算。最后，时变差分方法不需要模型，而且是完全递增的，但是分析起来比较复杂。这些方法在效率和收敛速度方面也有不同。
+剩下的两章描述了如何将这三种方法组合起来以获得它们各自的最佳特性。在一章中，我们描述了蒙特卡罗方法的优点如何通过多步自举方法与时滞差分方法的优点相结合。在本书这一部分的最后一章中，我们展示了如何将时间差异学习方法与模型学习和规划方法(如动态规划)结合在一起，为表格式的强化学习问题提供一个完整统一的解决方案。
+\include{chapters/chapter_2}
+\include{chapters/chapter_3}
+\include{chapters/chapter_4}
+\include{chapters/chapter_5}
+\include{chapters/chapter_6}
+\include{chapters/chapter_7}
+\include{chapters/chapter_8}
+
+\part{近似解的方法}
+在本书的第二部分，我们扩展了在第一部分中提出的表格方法来应用于任意大的状态空间的问题。在我们想要应用强化学习的许多任务中，状态空间是组合的和巨大的;例如，可能的相机图像的数量要比宇宙中原子的数量大得多。在这种情况下，即使在无限的时间和数据的限制下，我们也不能期望找到最优策略或最优值函数;我们的目标是利用有限的计算资源找到一个好的近似解。在本书的这一部分，我们探讨了这种近似解的方法。
+大状态空间的问题不只是大表所需的内存，而是精确填充它们所需的时间和数据。在我们的许多目标任务中，几乎所有遇到的状态以前都不会出现。要在这种状态下作出明智的决定，必须从与不同状态的接触中归纳出与当前状态在某种意义上相似的情况。换句话说，关键问题是泛化。如何能对状态空间的有限子集进行有效的推广，从而在更大的子集上产生良好的近似?
+幸运的是，我们已经广泛地研究了从实例中归纳，我们不需要发明全新的方法用于强化学习。在某种程度上，我们只需要将强化学习方法与现有的泛化方法结合起来。我们需要的那种泛化通常被称为函数逼近，因为它从一个期望的函数(例如，一个值函数)中抽取例子，并试图从它们中进行归纳，以构建整个函数的近似。函数逼近是一种监督学习的实例，是机器学习、人工神经网络、模式识别和统计曲线拟合的主要研究课题。理论上，在这些领域中研究的任何方法都可以在增强学习算法中充当函数逼近者的角色，尽管在实践中有些方法比其他方法更容易适应这个角色。
+函数逼近强化学习涉及到许多常规监督学习中不常见的新问题，如非平稳性、自举和延迟目标。我们先后在这部分的五章中介绍了这些问题和其他问题。首先，我们限制了对政策培训的关注，在第9章中，我们处理了预测案例，在这个案例中，政策是给定的，只有它的值函数是近似的，然后在第10章中，控制案例中，我们找到了最优政策的一个近似。在第11章中讨论了带函数逼近的非策略学习问题。在这三章中，我们将必须回到第一原则，重新审视学习的目标，并考虑函数的近似。第12章介绍并分析了资格跟踪的算法机制，极大地提高了多步强化学习方法在许多情况下的计算性能。本部分的最后一章探讨了一种不同的控制方法——策略梯度法，它直接逼近最优策略，不需要形成一个近似的值函数(尽管如果它们也近似于一个值函数，那么它们可能会更有效)。
+
+\include{chapters/chapter_9}
+\include{chapters/chapter_10}
+\include{chapters/chapter_11}
+\include{chapters/chapter_12}
+\include{chapters/chapter_13}
+
+
+\part{前沿的研究}
+在这本书的最后一部分中，我们超越了书的前两部分中提出的标准强化学习思想，简要地考察了它们与心理学和神经科学的关系，强化学习应用的样本，以及未来强化学习研究的一些活跃前沿。
+
+\include{chapters/chapter_14}
+\include{chapters/chapter_15}
+\include{chapters/chapter_16}
+\include{chapters/chapter_17}
+
+
+\chapter{First chapters}
+
+\begin{summary}
+  This first chapter illustrates how to use various elements of this
+  text book template, such as definitions, theorems and exercises. You
+  may want to start each chapter with a meta summary like this one, to
+  explain to the reader what the chapter is all about, why it is
+  important and how it fits into the bigger picture of the
+  book. Another useful tip is to put the contents of each chapter into
+  a separate \LaTeX{} file and then use the command
+  \texttt{\textbackslash{}input\{\}} to include the chapter in the
+  main document.
+\end{summary}
+
+\section{First section}
+
+Let's start out with the following theorem.
+
+\begin{theorem}[Logic algebra]
+  \label{th:logicalgebra}
+  \index{logic algebra}
+  Let $P$, $Q$ and $R$ be logical propositions (true or false).
+  Then the following propositions are true:
+  \small
+  \begin{align*}
+    P \land Q &\Leftrightarrow Q \land P &
+    P \lor  Q &\Leftrightarrow Q \lor P  &&
+    \text{(commutative laws)} \\
+    (P \land Q) \land R &\Leftrightarrow P \land (Q \land R) &
+    (P \lor Q)  \lor  R &\Leftrightarrow P \lor  (Q \lor  R) &&
+    \text{(associative laws)} \\
+    P \land (Q \lor  R) &\Leftrightarrow (P \land Q) \lor  (P \land R) &
+    P \lor  (Q \land R) &\Leftrightarrow (P \lor  Q) \land (P \lor  R) &&
+    \text{(distributive laws)} \\
+    \lnot (P \land Q) &\Leftrightarrow \lnot P \lor  \lnot Q &
+    \lnot (P \lor  Q) &\Leftrightarrow \lnot P \land \lnot Q &&
+    \text{(De Morgan's laws)}
+  \end{align*}
+\end{theorem}
+\begin{proof}
+
+  We prove the first of De Morgan's laws and leave the proofs of
+  the remaining propositions as exercises. To prove the statement,
+  we create a truth table and fill in all possible values (true or
+  false) for the propositions $P$ and $Q$. Each of these propositions
+  can be either true or false and we thus obtain the following truth
+  table with four cases:
+ 
+  It follows that the statement we want to prove (the equivalence $\Leftrightarrow$)
+  is always true (a \emph{tautology}), which proves the statement.
+\end{proof}
+
+\section{Second section}
+
+We begin our next section with the following central definition.
+
+\begin{definition}[Rational Cauchy sequence]
+  \label{th:rationalcauchysequence}
+  \index{rational Cauchy sequence}
+  A rational Cauchy sequence is a rational sequence
+  $(x_n)_{n=0}^{\infty}$ such that
+  \begin{equation}
+    \forall \epsilon \in \mathbb{Q}_+ \;
+    \exists N \in \mathbb{N} : m, n \geq N \Rightarrow |x_m - x_n| < \epsilon.
+  \end{equation}
+  In other words, for each (small) rational number $\epsilon > 0$
+  there is a (big) number $N$ such that the distance $|x_m - x_n|$
+  between $x_m$ and $x_n$ is less than $\epsilon$ if both $m$ and $n$
+  are larger than or equal to $N$.
+\end{definition}
+
+\begin{remark}
+  A remark may be in order here. This definition is concerned with
+  \emph{rational} Cauchy sequences. We will later encounter a similar
+  definition of \emph{real} Cauchy sequences.
+\end{remark}
+
+\begin{example}[Solving the equation $x^2 = 2$]
+  Consider the equation $x^2 = 2$. It is easy to prove that this
+  equation does not have any rational solutions. However, consider
+  the following iteration formula:
+  \begin{equation}
+    x_n = \frac{x_{n-1} + 2 / x_{n - 1}}{2},
+  \end{equation}
+  where $n = 1,2,3,\ldots$ and $x_0 = 1$. The resulting sequence of
+  rational numbers quickly approaches a number in the vicinity of
+  $x = 1.4142135623731$:
+  \begin{displaymath}
+    \begin{array}{rclcl}
+      x_0 &=& 1 \\
+      x_{1} &=& (x_{0} + 2 / x_{0}) / 2 &=& 1.5 \\
+      x_{2} &=& (x_{1} + 2 / x_{1}) / 2 &\approx& 1.4166666666667 \\
+      x_{3} &=& (x_{2} + 2 / x_{2}) / 2 &\approx& 1.4142156862745 \\
+      x_{4} &=& (x_{3} + 2 / x_{3}) / 2 &\approx& 1.4142135623747 \\
+      x_{5} &=& (x_{4} + 2 / x_{4}) / 2 &\approx& 1.4142135623731 \\
+      x_{6} &=& (x_{5} + 2 / x_{5}) / 2 &\approx& 1.4142135623731 \\
+      x_{7} &=& (x_{6} + 2 / x_{6}) / 2 &\approx& 1.4142135623731 \\
+      x_{8} &=& (x_{7} + 2 / x_{7}) / 2 &\approx& 1.4142135623731 \\
+      x_{9} &=& (x_{8} + 2 / x_{8}) / 2 &\approx& 1.4142135623731 \\
+      x_{10} &=& (x_{9} + 2 / x_{9}) / 2 &\approx& 1.4142135623731
+    \end{array}
+  \end{displaymath}
+  We will later see that this iteration, or any other equivalent
+  iteration, defines the real number $\sqrt{2}$.
+\end{example}
+
+\section{Third section}
+
+Now let's move on to the definition of the real number system. This
+may be defined in a multitude of ways, one of which is to think about
+a real number as a rational Cauchy sequence, or rather the equivalence
+class of Cauchy sequences ``converging to'' that number.
+
+\begin{definition}[The real numbers $\mathbb{R}$]
+  \label{def:realnumbers}
+  \index{real numbers}
+  The real numbers $\mathbb{R}$ is the set of all equivalence classes
+  of rational Cauchy sequences.
+\end{definition}
+
+Now that this is settled, lets prove the completeness of the real
+number system.
+
+\begin{theorem}[The completeness of the real numbers]
+  \label{th:realnumberscomplete}
+  \index{completeness of the real numbers}
+  Let $(x_n)_{n=0}^{\infty}$ be a sequence of real numbers.
+  Then $(x_n)_{n=0}^{\infty}$ is convergent if and only if
+  it is also a real Cauchy sequence.
+  \end{theorem}
+\begin{proof}
+  Write $x_m = [(x_{mn})_{n=0}^{\infty}]$ where
+  $x_{mn}$ is the $n$th number in a rational Cauchy sequence
+  representing the real number $x_m$. And so on\ldots.
+\end{proof}
+
+For further reading, there are several excellent works that one could
+cite, such as \cite{Tao2006,Turing1936}.
+
+\section*{Exercises}
+
+\begin{exercise}
+  Let $A = \{1, 2, 3\}$ and $B = \{2, 3, 4\}$.
+  Determine the following sets. \\
+  (a) $A \cup B$ \quad
+  (b) $A \cap B$ \quad
+  (c) $A \setminus B$ \quad
+  (d) $A \times B$
+\end{exercise}
+
+\begin{exercise}
+  Let $A = \{1, 3, 5, 7, 9\}$ and $B = \{2, 4, 6, 8, 10\}$.
+  Determine the following sets. \\
+  (a) $A \cup B$ \quad
+  (b) $A \cap B$ \quad
+  (c) $A \setminus B$ \quad
+  (d) $A \times B$
+\end{exercise}
+
+\begin{exercise}
+  Let $A = \{1, 2, 3\}$, $B = \{2, 3, 4\}$ and $C = \{3, 4, 5\}$.
+  Determine the following sets. \\
+  (a) $A \cup B \cup C$ \quad
+  (b) $A \cap B \cap C$ \quad
+  (c) $(B \setminus A) \cap C$ \quad
+  (d) $(A \times B) \times C$
+\end{exercise}
+
+\section*{Problem}
+
+\begin{problem}
+  Interpret the following set definition (Russell's paradox) and discuss
+  whether $X \in X$ or $X \notin X$:
+  \begin{equation}
+    X = \{x \mid x \notin x\}.
+  \end{equation}
+\end{problem}
+
+\section*{Computer exercises}
+
+\begin{programming}
+  Write a program that generates the sequence $(x_n)_{n=0}^{100}$
+  for $x_n = n$.
+\end{programming}
+
+\begin{programming}
+  Write a program that generates the odd numbers between $1$ and $100$.
+\end{programming}
+
+\begin{programming}
+  Write a program that computes the sum $\sum_{n=0}^{100} x_n$
+  for $x_n = n$.
+\end{programming}
+
+%---------------------------------------------------------------------------
+\chapter{Second chapter}
+
+\begin{summary}
+  \blindtext
+\end{summary}
+
+\section{First section}
+\Blindtext
+
+\section{Second section}
+\Blindtext
+
+\section{Third section}
+\Blindtext
+
+%---------------------------------------------------------------------------
+\chapter{Third chapter}
+
+\begin{summary}
+  \blindtext
+\end{summary}
+
+\section{First section}
+\Blindtext
+
+\section{Second section}
+\Blindtext
+
+\section{Third section}
+\Blindtext
+
+%---------------------------------------------------------------------------
+% Bibliography
+%---------------------------------------------------------------------------
+
+\addcontentsline{toc}{chapter}{\textcolor{tssteelblue}{Literature}}
+\printbibliography{}
+
+%---------------------------------------------------------------------------
+% Index
+%---------------------------------------------------------------------------
+
+\printindex
+
+\end{document}

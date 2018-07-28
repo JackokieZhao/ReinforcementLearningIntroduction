@@ -1,0 +1,9 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}TD预测}{\reset@font\mtcSfont 70}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}TD预测方法的优点}{\reset@font\mtcSfont 72}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}最优的TD(0)}{\reset@font\mtcSfont 73}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Sarsa: On-policy TD Control}{\reset@font\mtcSfont 74}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.5}Q-learning: Off-policy TD Control}{\reset@font\mtcSfont 75}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.6}预期撒尔沙}{\reset@font\mtcSfont 76}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.7}最大偏差和双学习}{\reset@font\mtcSfont 77}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.8}游戏、后州和其他特殊情况}{\reset@font\mtcSfont 77}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.9}总结}{\reset@font\mtcSfont 78}}

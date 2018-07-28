@@ -1,0 +1,17 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.1}值函数逼近}{\reset@font\mtcSfont 108}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.2}预测目标(VE)}{\reset@font\mtcSfont 109}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.3}随机梯度和半梯度方法}{\reset@font\mtcSfont 109}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.4}线性方法}{\reset@font\mtcSfont 111}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.5}线性方法的特征构造}{\reset@font\mtcSfont 113}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.1}多项式}{\reset@font\mtcSSfont 113}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.2}傅里叶基础}{\reset@font\mtcSSfont 114}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.3}粗编码}{\reset@font\mtcSSfont 115}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.4}瓦片编码}{\reset@font\mtcSSfont 116}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.5}径向基函数}{\reset@font\mtcSSfont 117}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.6}手动选择步长参数}{\reset@font\mtcSfont 118}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.7}最小二乘道明}{\reset@font\mtcSfont 121}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.8}基于内存的函数近似}{\reset@font\mtcSfont 122}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.9}基于函数逼近}{\reset@font\mtcSfont 123}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.10}对政策学习的深入研究:兴趣和重点}{\reset@font\mtcSfont 123}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.11}总结}{\reset@font\mtcSfont 124}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.12}书目的和历史的言论}{\reset@font\mtcSfont 125}}

@@ -1,0 +1,21 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.1}政策近似值及其优点}{\reset@font\mtcSfont 165}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.2}政策梯度定理}{\reset@font\mtcSfont 166}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.3}加强:蒙特卡罗政策梯度}{\reset@font\mtcSfont 167}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.4}加强与基线}{\reset@font\mtcSfont 168}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.5}Actor-Critic方法}{\reset@font\mtcSfont 169}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.6}持续问题的政策梯度}{\reset@font\mtcSfont 169}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.7}持续行动的政策参数化}{\reset@font\mtcSfont 170}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.8}总结}{\reset@font\mtcSfont 170}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.9}书目的和历史的言论}{\reset@font\mtcSfont 171}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.10}第14章 心理学}{\reset@font\mtcSfont 174}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.11}预测和控制}{\reset@font\mtcSfont 174}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.12}经典条件作用}{\reset@font\mtcSfont 175}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {13.12.1}阻塞和高阶条件作用}{\reset@font\mtcSSfont 176}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {13.12.2}Rescorla-Wagner模型}{\reset@font\mtcSSfont 176}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.13}TD模型}{\reset@font\mtcSfont 178}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.14}工具性条件作用}{\reset@font\mtcSfont 182}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.15}延迟强化}{\reset@font\mtcSfont 184}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.16}认知地图}{\reset@font\mtcSfont 185}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.17}习惯性和目标导向的行为}{\reset@font\mtcSfont 185}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.18}总结}{\reset@font\mtcSfont 187}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {13.19}书目的和历史的言论}{\reset@font\mtcSfont 188}}

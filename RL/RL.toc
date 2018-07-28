@@ -1,0 +1,210 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {chapter}{\numberline {1}第一章 引言}{11}
+\contentsline {section}{\numberline {1.1}强化学习}{11}
+\contentsline {section}{\numberline {1.2}强化学习的例子}{13}
+\contentsline {section}{\numberline {1.3}强化学习的要素}{13}
+\contentsline {section}{\numberline {1.4}限制和范围}{14}
+\contentsline {section}{\numberline {1.5}一个扩展的例子:井字游戏}{15}
+\contentsline {section}{\numberline {1.6}总结}{17}
+\contentsline {section}{\numberline {1.7}强化学习的早期历史}{18}
+\contentsline {part}{I\hspace {1em}第一部分:表列解方法}{23}
+\contentsline {xpart}{第一部分:表列解方法}{24}
+\contentsline {chapter}{\numberline {2}第二章 多臂赌博机}{25}
+\contentsline {section}{\numberline {2.1}韩国武装匪徒问题}{25}
+\contentsline {section}{\numberline {2.2}行为价值的方法}{26}
+\contentsline {section}{\numberline {2.3}的10-armed试验台}{27}
+\contentsline {section}{\numberline {2.4}增量实现}{28}
+\contentsline {section}{\numberline {2.5}跟踪非平稳问题}{28}
+\contentsline {section}{\numberline {2.6}乐观的初始值}{29}
+\contentsline {section}{\numberline {2.7}Upper-Confidence-Bound选择动作}{30}
+\contentsline {section}{\numberline {2.8}pper-Confidence-Bound选择动作}{30}
+\contentsline {section}{\numberline {2.9}梯度赌博机算法}{31}
+\contentsline {section}{\numberline {2.10}关联搜索(上下文盗匪)}{31}
+\contentsline {section}{\numberline {2.11}总结}{32}
+\contentsline {chapter}{\numberline {3}第三章 有限马尔可夫决策过程}{35}
+\contentsline {section}{\numberline {3.1}Agent-Environment接口}{35}
+\contentsline {section}{\numberline {3.2}目标和奖励}{37}
+\contentsline {section}{\numberline {3.3}回报和集}{38}
+\contentsline {section}{\numberline {3.4}策略和价值功能}{40}
+\contentsline {section}{\numberline {3.5}最优策略和最优值函数}{43}
+\contentsline {section}{\numberline {3.6}最优性和近似}{45}
+\contentsline {section}{\numberline {3.7}总结}{45}
+\contentsline {chapter}{\numberline {4}第四章 动态规划}{48}
+\contentsline {section}{\numberline {4.1}政策评估(预测)}{48}
+\contentsline {section}{\numberline {4.2}政策改进}{50}
+\contentsline {section}{\numberline {4.3}政策迭代}{51}
+\contentsline {section}{\numberline {4.4}值迭代}{52}
+\contentsline {section}{\numberline {4.5}异步动态规划}{54}
+\contentsline {section}{\numberline {4.6}广义政策迭代}{54}
+\contentsline {section}{\numberline {4.7}动态编程效率}{55}
+\contentsline {section}{\numberline {4.8}总结}{55}
+\contentsline {chapter}{\numberline {5}第五章 蒙特卡罗方法}{57}
+\contentsline {subsection}{\numberline {5.0.1}蒙特卡罗预测}{57}
+\contentsline {section}{\numberline {5.1}行为值的蒙特卡罗估计}{59}
+\contentsline {section}{\numberline {5.2}蒙特卡罗控制}{60}
+\contentsline {subsection}{\numberline {5.2.1}无探测启动的蒙特卡罗控制}{61}
+\contentsline {subsection}{\numberline {5.2.2}通过重要性抽样进行政策外预测}{62}
+\contentsline {section}{\numberline {5.3}增量实现}{65}
+\contentsline {section}{\numberline {5.4}场外蒙特卡罗控制}{65}
+\contentsline {section}{\numberline {5.5}Discounting-aware重要性抽样}{66}
+\contentsline {section}{\numberline {5.6}每个决策重要性抽样}{67}
+\contentsline {section}{\numberline {5.7}总结}{68}
+\contentsline {chapter}{\numberline {6}第六章 Temporal-Difference学习}{70}
+\contentsline {section}{\numberline {6.1}TD预测}{70}
+\contentsline {section}{\numberline {6.2}TD预测方法的优点}{72}
+\contentsline {section}{\numberline {6.3}最优的TD(0)}{73}
+\contentsline {section}{\numberline {6.4}Sarsa: On-policy TD Control}{74}
+\contentsline {section}{\numberline {6.5}Q-learning: Off-policy TD Control}{75}
+\contentsline {section}{\numberline {6.6}预期撒尔沙}{76}
+\contentsline {section}{\numberline {6.7}最大偏差和双学习}{77}
+\contentsline {section}{\numberline {6.8}游戏、后州和其他特殊情况}{77}
+\contentsline {section}{\numberline {6.9}总结}{78}
+\contentsline {chapter}{\numberline {7}第七章 n-step引导}{80}
+\contentsline {section}{\numberline {7.1}n-step TD预测}{80}
+\contentsline {section}{\numberline {7.2} n-step撒尔沙}{82}
+\contentsline {section}{\numberline {7.3}n-step Off-policy学习}{83}
+\contentsline {section}{\numberline {7.4}*每一决策方法与对照不同}{83}
+\contentsline {section}{\numberline {7.5}无重要抽样的脱机学习:n步树备份算法}{84}
+\contentsline {section}{\numberline {7.6}7.6 *统一算法:n-step Q(σ)}{85}
+\contentsline {section}{\numberline {7.7}总结}{86}
+\contentsline {chapter}{\numberline {8}第八章 用表格法进行规划和学习}{88}
+\contentsline {section}{\numberline {8.1}模型和规划}{88}
+\contentsline {section}{\numberline {8.2}Dyna:综合规划、表演、学习}{89}
+\contentsline {section}{\numberline {8.3}模型错误时}{91}
+\contentsline {section}{\numberline {8.4}优先考虑全面}{92}
+\contentsline {section}{\numberline {8.5}预期更新与示例更新}{94}
+\contentsline {section}{\numberline {8.6}预期与样本更新}{95}
+\contentsline {section}{\numberline {8.7}采样轨迹}{96}
+\contentsline {section}{\numberline {8.8}实时动态规划}{97}
+\contentsline {section}{\numberline {8.9}在决策时进行规划}{99}
+\contentsline {section}{\numberline {8.10}启发式搜索}{99}
+\contentsline {section}{\numberline {8.11}Rollout算法}{100}
+\contentsline {section}{\numberline {8.12}特卡罗树搜索}{101}
+\contentsline {section}{\numberline {8.13}本章小结}{103}
+\contentsline {section}{\numberline {8.14}第一部分概述:尺寸}{103}
+\contentsline {part}{II\hspace {1em}近似解的方法}{106}
+\contentsline {xpart}{近似解的方法}{107}
+\contentsline {chapter}{\numberline {9}第九章 在政策与近似预测}{108}
+\contentsline {section}{\numberline {9.1}值函数逼近}{108}
+\contentsline {section}{\numberline {9.2}预测目标(VE)}{109}
+\contentsline {section}{\numberline {9.3}随机梯度和半梯度方法}{109}
+\contentsline {section}{\numberline {9.4}线性方法}{111}
+\contentsline {section}{\numberline {9.5}线性方法的特征构造}{113}
+\contentsline {subsection}{\numberline {9.5.1}多项式}{113}
+\contentsline {subsection}{\numberline {9.5.2}傅里叶基础}{114}
+\contentsline {subsection}{\numberline {9.5.3}粗编码}{115}
+\contentsline {subsection}{\numberline {9.5.4}瓦片编码}{116}
+\contentsline {subsection}{\numberline {9.5.5}径向基函数}{117}
+\contentsline {section}{\numberline {9.6}手动选择步长参数}{118}
+\contentsline {section}{\numberline {9.7}最小二乘道明}{121}
+\contentsline {section}{\numberline {9.8}基于内存的函数近似}{122}
+\contentsline {section}{\numberline {9.9}基于函数逼近}{123}
+\contentsline {section}{\numberline {9.10}对政策学习的深入研究:兴趣和重点}{123}
+\contentsline {section}{\numberline {9.11}总结}{124}
+\contentsline {section}{\numberline {9.12}书目的和历史的言论}{125}
+\contentsline {chapter}{\numberline {10}第十章 在政策控制近似}{128}
+\contentsline {section}{\numberline {10.1}章节Semi-gradient控制}{128}
+\contentsline {section}{\numberline {10.2}Semi-gradient n-step撒尔沙}{129}
+\contentsline {section}{\numberline {10.3}平均奖励:持续任务的新问题设置}{130}
+\contentsline {section}{\numberline {10.4}不赞成折现设置}{132}
+\contentsline {section}{\numberline {10.5}差分半梯度n步萨尔萨}{133}
+\contentsline {section}{\numberline {10.6}总结}{133}
+\contentsline {section}{\numberline {10.7}书目的和历史的言论}{133}
+\contentsline {chapter}{\numberline {11}第十一章 Off-policy方法近似}{134}
+\contentsline {section}{\numberline {11.1}Semi-gradient方法}{134}
+\contentsline {section}{\numberline {11.2}非政策分歧的例子。}{135}
+\contentsline {section}{\numberline {11.3}致命的三合会}{137}
+\contentsline {section}{\numberline {11.4}线性值函数几何}{138}
+\contentsline {section}{\numberline {11.5}Bellman错误是不可学的}{142}
+\contentsline {section}{\numberline {11.6}Gradient-TD方法}{143}
+\contentsline {section}{\numberline {11.7}Emphatic-TD方法}{146}
+\contentsline {section}{\numberline {11.8}总结}{147}
+\contentsline {section}{\numberline {11.9}书目的和历史的言论}{148}
+\contentsline {chapter}{\numberline {12}第十二章 资格的痕迹}{149}
+\contentsline {section}{\numberline {12.1}的λ-return}{149}
+\contentsline {section}{\numberline {12.2}TD(λ)}{151}
+\contentsline {section}{\numberline {12.3}n-step截断λ-return方法}{152}
+\contentsline {section}{\numberline {12.4}重新更新:在线λ-return算法}{153}
+\contentsline {section}{\numberline {12.5}真实在线TD(λ)}{154}
+\contentsline {section}{\numberline {12.6}荷兰语在蒙特卡洛学习}{155}
+\contentsline {section}{\numberline {12.7}撒尔沙(λ)}{157}
+\contentsline {section}{\numberline {12.8}变量λ和γ}{158}
+\contentsline {section}{\numberline {12.9}带有控制变量的非政策跟踪}{159}
+\contentsline {section}{\numberline {12.10}沃特金斯的Q(λ)Tree-Backup(λ)}{161}
+\contentsline {section}{\numberline {12.11}带有跟踪的稳定脱机方法}{161}
+\contentsline {section}{\numberline {12.12}实现问题}{163}
+\contentsline {section}{\numberline {12.13}结论}{163}
+\contentsline {section}{\numberline {12.14}书目的和历史的言论}{164}
+\contentsline {chapter}{\numberline {13}第十三章 策略梯度方法}{165}
+\contentsline {section}{\numberline {13.1}政策近似值及其优点}{165}
+\contentsline {section}{\numberline {13.2}政策梯度定理}{166}
+\contentsline {section}{\numberline {13.3}加强:蒙特卡罗政策梯度}{167}
+\contentsline {section}{\numberline {13.4}加强与基线}{168}
+\contentsline {section}{\numberline {13.5}Actor-Critic方法}{169}
+\contentsline {section}{\numberline {13.6}持续问题的政策梯度}{169}
+\contentsline {section}{\numberline {13.7}持续行动的政策参数化}{170}
+\contentsline {section}{\numberline {13.8}总结}{170}
+\contentsline {section}{\numberline {13.9}书目的和历史的言论}{171}
+\contentsline {part}{III\hspace {1em}前沿的研究}{172}
+\contentsline {xpart}{前沿的研究}{173}
+\contentsline {section}{\numberline {13.10}第14章 心理学}{174}
+\contentsline {section}{\numberline {13.11}预测和控制}{174}
+\contentsline {section}{\numberline {13.12}经典条件作用}{175}
+\contentsline {subsection}{\numberline {13.12.1}阻塞和高阶条件作用}{176}
+\contentsline {subsection}{\numberline {13.12.2}Rescorla-Wagner模型}{176}
+\contentsline {section}{\numberline {13.13}TD模型}{178}
+\contentsline {section}{\numberline {13.14}工具性条件作用}{182}
+\contentsline {section}{\numberline {13.15}延迟强化}{184}
+\contentsline {section}{\numberline {13.16}认知地图}{185}
+\contentsline {section}{\numberline {13.17}习惯性和目标导向的行为}{185}
+\contentsline {section}{\numberline {13.18}总结}{187}
+\contentsline {section}{\numberline {13.19}书目的和历史的言论}{188}
+\contentsline {chapter}{\numberline {14}第15章 神经科学}{192}
+\contentsline {section}{\numberline {14.1}神经科学基础知识}{192}
+\contentsline {section}{\numberline {14.2}奖励信号、强化信号、值和预测错误}{193}
+\contentsline {section}{\numberline {14.3}奖励预测误差假设}{194}
+\contentsline {section}{\numberline {14.4}多巴胺}{195}
+\contentsline {section}{\numberline {14.5}奖励预测误差假设的实验支持}{197}
+\contentsline {section}{\numberline {14.6}奖励预测误差假设389的实验支持}{198}
+\contentsline {section}{\numberline {14.7}TD错误/多巴胺的信件}{199}
+\contentsline {section}{\numberline {14.8}神经Actor-Critic}{201}
+\contentsline {section}{\numberline {14.9}演员和评论家的学习规则}{203}
+\contentsline {section}{\numberline {14.10}享乐神经元}{205}
+\contentsline {section}{\numberline {14.11}集体强化学习}{206}
+\contentsline {section}{\numberline {14.12}基于模型的大脑方法}{208}
+\contentsline {section}{\numberline {14.13}上瘾}{209}
+\contentsline {section}{\numberline {14.14}总结}{209}
+\contentsline {section}{\numberline {14.15}书目的和历史的言论}{211}
+\contentsline {chapter}{\numberline {15}第十六章 应用和案例研究}{215}
+\contentsline {section}{\numberline {15.1}TD-Gammon}{215}
+\contentsline {section}{\numberline {15.2}塞缪尔跳棋的球员}{218}
+\contentsline {section}{\numberline {15.3}沃森的双倍下注}{219}
+\contentsline {section}{\numberline {15.4}优化内存控制}{221}
+\contentsline {section}{\numberline {15.5}人机级的游戏}{223}
+\contentsline {section}{\numberline {15.6}掌握围棋}{226}
+\contentsline {subsection}{\numberline {15.6.1}AlphaGo}{227}
+\contentsline {subsection}{\numberline {15.6.2}AlphaGo零}{229}
+\contentsline {section}{\numberline {15.7}个性化的Web服务}{231}
+\contentsline {section}{\numberline {15.8}热飙升}{232}
+\contentsline {section}{\numberline {15.9}第十七章 前沿}{235}
+\contentsline {section}{\numberline {15.10}一般价值函数和辅助任务}{235}
+\contentsline {section}{\numberline {15.11}通过选项的时间抽象}{236}
+\contentsline {section}{\numberline {15.12}观察和状态}{238}
+\contentsline {section}{\numberline {15.13}设计奖励信号}{240}
+\contentsline {section}{\numberline {15.14}剩余问题}{242}
+\contentsline {section}{\numberline {15.15}人工智能的未来}{243}
+\contentsline {section}{\numberline {15.16}书目的和历史的言论}{245}
+\contentsline {chapter}{\numberline {16}First chapters}{247}
+\contentsline {section}{\numberline {16.1}First section}{247}
+\contentsline {section}{\numberline {16.2}Second section}{247}
+\contentsline {section}{\numberline {16.3}Third section}{248}
+\contentsline {chapter}{\numberline {17}Second chapter}{250}
+\contentsline {section}{\numberline {17.1}First section}{250}
+\contentsline {section}{\numberline {17.2}Second section}{251}
+\contentsline {section}{\numberline {17.3}Third section}{252}
+\contentsline {chapter}{\numberline {18}Third chapter}{254}
+\contentsline {section}{\numberline {18.1}First section}{254}
+\contentsline {section}{\numberline {18.2}Second section}{255}
+\contentsline {section}{\numberline {18.3}Third section}{256}
+\contentsline {chapter}{\leavevmode {\color {tssteelblue}Literature}}{257}
+\contentsfinish 

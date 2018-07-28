@@ -1,0 +1,7 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}n-step TD预测}{\reset@font\mtcSfont 80}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2} n-step撒尔沙}{\reset@font\mtcSfont 82}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}n-step Off-policy学习}{\reset@font\mtcSfont 83}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}*每一决策方法与对照不同}{\reset@font\mtcSfont 83}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.5}无重要抽样的脱机学习:n步树备份算法}{\reset@font\mtcSfont 84}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.6}7.6 *统一算法:n-step Q(σ)}{\reset@font\mtcSfont 85}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.7}总结}{\reset@font\mtcSfont 86}}
